@@ -1,0 +1,10 @@
+diff a/QuanLyBanDoAnNhanh/Startup.cs b/QuanLyBanDoAnNhanh/Startup.cs	(rejected hunks)
+@@ -49,7 +49,7 @@
+                      options.JsonSerializerOptions.PropertyNamingPolicy = null;
+                      options.JsonSerializerOptions.Converters.Add(new CustomJsonConverterForType());
+                  });
+-
++            //Sơn tét
+             services.AddSwaggerGen(c =>
+             {
+                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "QuanLyBanDoAnNhanh", Version = "v1" });
